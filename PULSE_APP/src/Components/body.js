@@ -12,9 +12,9 @@ function Body() {
   return (
     <div>
       <Title/>
-      <ListParagraph />
+      {/* <ListParagraph />
       <Reviews/>
-      <HeadlineCards/>
+      <HeadlineCards/> */}
       <Features/>
       <FeatureCards/>
       <Managecard/>

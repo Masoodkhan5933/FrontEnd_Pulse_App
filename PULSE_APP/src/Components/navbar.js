@@ -36,8 +36,8 @@ export function NavbarD() {
     <ul className="mt-2 mb-4 flex flex-col gap-3 lg:mb-0 lg:mt-0 md:flex-row md:items-center md:gap-6">
       <Typography
         as="li"
-        variant="small"
-        className="flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
+        
+        className="text-lg flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
       >
         <a href="#" className="flex items-center">
           Features
@@ -45,8 +45,8 @@ export function NavbarD() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
+        
+        className="text-lg flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
       >
         <a href="#" className="flex items-center">
           Customer Stories
@@ -54,8 +54,8 @@ export function NavbarD() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
+        
+        className="text-lg flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
       >
         <a href="#" className="flex items-center">
           Pricing
@@ -63,21 +63,21 @@ export function NavbarD() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
+        
+        className="text-lg flex items-center gap-x-2 p-2 font-bold hover:text-black text-green-500"
       >
         <a href="#" className="flex items-center">
           Blog
         </a>
       </Typography>
-      <Button className=" bg-white px-3 py-1 font-semibold uppercase text-green-500 transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:shadow-[-4px_4px_0px_green] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+      <Button className="text-lg bg-white px-3 py-1 font-semibold uppercase text-green-500 transition-all duration-300 hover:translate-x-[4px] hover:translate-y-[-4px] hover:shadow-[-4px_4px_0px_green] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
         Signup
       </Button>
     </ul>
   );
 
   return (
-    <Navbar className="md:bg-green-100 w-full lg:p-16 md:py-5">
+    <Navbar className="md:bg-green-50 w-full lg:p-16 md:py-5">
       <div className=" container mx-auto flex items-center justify-between text-blue-gray-900 ">
         <img
           src={logo}

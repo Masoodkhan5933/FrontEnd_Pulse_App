@@ -5,7 +5,7 @@ const Title = () => {
   return (
     <div className=" inset-0 flex flex-col justify-center items-start"
     style={{
-      background: 'linear-gradient(to top, #E7F8F0, #D6F3E5)'
+      background: 'linear-gradient(to bottom, #E7F8F0, #FFFFFF)'
   }}>
       <p className="lg:pl-12 w-[70%] lg:w-1/2 font-bold text-4xl p-4">Yes, your business can
 survive that expense.</p>
