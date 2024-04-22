@@ -5,16 +5,15 @@ import FeatureCards from './body/featurecards';
 import Managecard from './body/managecard';
 import HeadlineCards from './body/headlinecard';
 import Features from './body/features';
-import BarGraph from './body/bargraph';
 import Title from './body/title';
 
 function Body() {
   return (
     <div>
       <Title/>
-      {/* <ListParagraph />
+      <ListParagraph />
       <Reviews/>
-      <HeadlineCards/> */}
+      <HeadlineCards/>
       <Features/>
       <FeatureCards/>
       <Managecard/>
